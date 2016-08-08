@@ -17,7 +17,7 @@ p {
 	font-size: 16px;
 }
 
-h1, h3 {
+h1, h2, h3 {
 	margin-top: 20px;
 	margin-bottom: 10px;
 }
@@ -32,12 +32,6 @@ nav a {
 	margin-right: 5px;
 	padding: 10px;
 	text-transform: uppercase;
-}
-
-slogan {
-	padding: 10px;
-	font-style: italic;
-	color: #ffffff;
 }
 
 ul {
