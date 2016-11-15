@@ -16,10 +16,9 @@ head {
     font-color: white;
 }
 
-head img {
-    max-width: 600px;
-    display: block;
-    margin: auto;
+
+img {
+    max-width: 100%;
 }
 
 h1 {
@@ -45,7 +44,6 @@ nav a {
 
 .container-white {
     background-color: white;
-    margin: 2em;
     padding: 2em;
     clear: both;
     color: black;
@@ -68,8 +66,8 @@ nav a {
     background-color: white;
 }
 
-.clearfix: after {
-    visability: hidden;
+.clearfix:after {
+    visibility: hidden;
     height: 0;
     font-size: 0;
     content:" ";
@@ -79,34 +77,4 @@ nav a {
 
 aside {
     float: left;
-}
-
-1-who {
-    background-color: #FFED74;
-    border: 1px black solid;
-    padding: 20px;
-}
-
-2-what {
-    background-color: #E8C66A;
-    border: 1px black solid;
-    padding: 20px;
-}
-
-3-where {
-    background-color: #FFC675;
-    border: 1px black solid;
-    padding: 20px;
-}
-
-4-when {
-    background-color: #E89C6C;
-    border: 1px black solid;
-    padding: 20px;
-}
-
-5-how {
-    background-color: #FFE2B8;
-    border: 1px black solid;
-    padding: 20px;
 }

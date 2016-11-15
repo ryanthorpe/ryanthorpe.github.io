@@ -1,0 +1,153 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+#wrapper {
+    width: 1080px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #ee3123;
+}
+
+body {
+	text-align: left;
+	font-family: 'Helvetica', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+header {
+    font-color: white;
+    background-color: #ee3123;
+    margin: 0 -9999rem 30px;
+  /* add back negative margin value */
+    padding: 0 9999rem 30px;
+}
+
+img {
+    max-width: 100%;
+}
+
+h1 {
+    font-size: 40px;
+    padding: .2em 0;
+    line-height: 1.15em;
+}
+
+h2 {
+    font-size: 30px;
+    padding: .4em 0;
+    line-height: 1.15em;
+}
+
+h3 {
+    font-size: 20px;
+    padding: .4em 0;
+    line-height: 1.2em;
+}
+
+p {
+	font-family: 'Helvetica', sans-serif;
+    font-weight: normal;
+    padding: .4em 0;
+    line-height: 1.2em;
+}
+
+nav {
+    background-color: white;
+    padding: 20px 0;
+}
+
+nav img {
+    padding-right: 40px;
+}
+
+nav a {
+    font-family: 'Helvetica', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: #fcd6d3;
+    text-decoration: none;
+    padding: 0 10px;
+}
+
+/*LoVe HAte*/
+
+/*nav a:link {
+    color: #ee3123;
+}*/
+
+nav a:hover {
+    color: #ee3123;
+}
+
+/*nav a:hover {
+    color: #ee3123;
+}
+
+nav a:hover {
+    color: #ee3123;
+}*/
+
+#intro {
+    margin: 0 50px 0 200px;
+    color: white;
+}
+
+.container-white {
+    background-color: white;
+    color: black;
+    padding: 20px 0;
+}
+
+.container-red {
+    background-color: #ee3123;
+    clear: both;
+    color: white;
+    margin: 0 -9999rem;
+  /* add back negative margin value */
+    padding: 20px 9999rem;
+}
+
+.container-black {
+    background-color: black;
+    clear: both;
+    color: white;
+    margin: 0 -9999rem;
+  /* add back negative margin value */
+    padding: 20px 9999rem;
+}
+
+.column {
+    float: left;
+    width: 200px;
+    height: 600px;
+    padding: .5em;
+    margin: .5em;
+    background-color: white;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    height: 0;
+    font-size: 0;
+    content:" ";
+    display: block;
+    clear: both;
+}
+
+.picture: {
+    float: right;
+}
+
+article {
+    width: 700px;
+    float: right;
+}
+
+aside {
+    width: 330px;
+    float: left;
+    padding-right: 50px
+}
