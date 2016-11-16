@@ -7,7 +7,6 @@
     width: 1080px;
     margin-left: auto;
     margin-right: auto;
-    background-color: #ee3123;
 }
 
 body {
@@ -25,8 +24,8 @@ header {
     padding: 0 9999rem 30px;
 }
 
-img {
-    max-width: 100%;
+header img {
+    margin-bottom: 40px;
 }
 
 h1 {
@@ -54,24 +53,35 @@ p {
     line-height: 1.2em;
 }
 
+p2 {
+    font-size: 15px;
+    font-weight: normal;
+}
+
 nav {
     background-color: white;
-    padding: 20px 0;
+    padding-bottom: 40px;
 }
 
 nav img {
-    padding-right: 40px;
+    margin-right: 40px;
 }
 
 nav a {
     font-family: 'Helvetica', sans-serif;
     font-weight: bold;
-    font-size: 20px;
-    color: #fcd6d3;
+    font-size: 25px;
+    color: #ee3123;
     text-decoration: none;
-    padding: 0 10px;
+    margin: 0 20px 0 0;
 }
 
+/*nav a img:hover {
+    color: white;
+    border-bottom: none;
+}
+
+*/
 /*LoVe HAte*/
 
 /*nav a:link {
@@ -80,6 +90,8 @@ nav a {
 
 nav a:hover {
     color: #ee3123;
+    border-bottom: 4px solid;
+    padding-bottom: 2px;
 }
 
 /*nav a:hover {
@@ -90,15 +102,22 @@ nav a:hover {
     color: #ee3123;
 }*/
 
+a {
+    color: inherit; /* blue colors for links too */
+    text-decoration: inherit; /* no underline */
+
+}
+
 #intro {
-    margin: 0 50px 0 200px;
+    margin: 0 50px 80px 200px;
     color: white;
 }
+
 
 .container-white {
     background-color: white;
     color: black;
-    padding: 20px 0;
+    padding: 50px 0;
 }
 
 .container-red {
@@ -107,7 +126,7 @@ nav a:hover {
     color: white;
     margin: 0 -9999rem;
   /* add back negative margin value */
-    padding: 20px 9999rem;
+    padding: 50px 9999rem;
 }
 
 .container-black {
@@ -116,7 +135,7 @@ nav a:hover {
     color: white;
     margin: 0 -9999rem;
   /* add back negative margin value */
-    padding: 20px 9999rem;
+    padding: 50px 9999rem;
 }
 
 .column {
@@ -150,4 +169,40 @@ aside {
     width: 330px;
     float: left;
     padding-right: 50px
+}
+
+#how img {
+    padding: 15px 0 0 20px;
+/*    width: 50%;
+    height: 50%;
+*/}
+
+#who article {
+    float: left;
+}
+
+#who aside {
+    float: right;
+}
+
+#who img {
+    /*size: 50%;*/
+    margin-top: 75px;
+}
+
+#where {
+    padding-right: 300px;
+}
+
+footer {
+    background-color: #ee3123;
+    color: white;
+    margin: 0 -9999rem;
+  /* add back negative margin value */
+    padding-left: 9999rem;
+    padding-right: 9999rem;
+    /*margin-bottom: -100px;*/
+}
+
+footer img {
 }
