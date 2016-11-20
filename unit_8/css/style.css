@@ -1,0 +1,194 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+#wrapper {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body {
+    background-color: #ee3123;
+    color: white;
+	text-align: left;
+	font-family: 'Helvetica', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+header {
+    background-color: #ee3123;
+    text-align: center;
+}
+
+header img {
+    margin-bottom: 40px;
+}
+
+h1 {
+    font-size: 40px;
+    line-height: 1.12em;
+    padding: 60px 0 20px 0;
+    /*background-color: green;*/
+}
+
+h2 {
+    font-size: 30px;
+    line-height: 1.12em;
+    padding-top: .8em;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+p {
+    font-weight: normal;
+    padding: .4em 0;
+}
+
+h3, p {
+    padding-top: .5em;
+    line-height: 1.12em;
+}
+
+h4 {
+    font-size: 15px;
+    font-weight: normal;
+}
+
+nav {
+    background-color: white;
+    padding-top: 40px
+}
+
+nav img {
+    margin-right: 190px;
+    padding-left: 60px;
+}
+
+nav a {
+    font-size: 25px;
+    color: #ee3123;
+    margin-right: 20px;
+}
+
+nav a:hover {
+    border-bottom: 4px solid;
+    padding-bottom: 2px;
+}
+
+nav a:active {
+    color: #ee3123;
+    border-bottom: 4px solid;
+    padding-bottom: 2px;
+}
+
+a {
+    color: inherit; 
+    text-decoration: inherit;
+}
+
+#intro {
+    padding: 40px 60px 150px 250px;
+    text-align: left;
+}
+
+.container {
+    padding: 0 60px 80px;
+}
+
+.whitebgnd {
+    background-color: white;
+    color: black;
+}
+
+.blackbgnd {
+    background-color: black;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    height: 0;
+    font-size: 0;
+    content:" ";
+    display: block;
+    clear: both;
+}
+
+article {
+    width: 620px;
+}
+
+aside {
+    width: 420px;
+}
+
+#who article {
+    float: left;
+    width: 660px;
+    /*background-color: pink;*/
+}
+
+#who aside {
+    float: right;
+    width: 380px;
+}
+
+#who img {
+    padding: 152px 100px 0 0;
+    /*background-color: pink;*/
+}
+
+.what aside {
+    float: left;
+    /*background-color: blue;*/
+}
+
+/*.what aside:last-child {
+    margin-bottom: 200px;
+}*/
+
+/*.what aside:nth-last-of-type(1) {
+    margin-bottom: 200px;
+}*/
+
+.what article {
+    float: right;
+    /*padding-right: 40px;*/
+    /*background-color: blue;*/
+}
+
+.what h1 {
+    padding-bottom: 25px;
+}
+
+.what h2 {
+    border-bottom: 4px solid;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    /*background-color: yellow;*/
+}
+
+.container.whitebgnd.what {
+    padding: 0 60px 20px;
+
+}
+
+#where {
+    padding-right: 300px;
+}
+
+#how img {
+    padding: 40px 25px 0 0;
+}
+
+footer {
+    padding: 0 0 60px 0;
+}
+
+
+
