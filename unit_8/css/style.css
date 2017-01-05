@@ -18,43 +18,32 @@ body {
     font-size: 20px;
 }
 
-header {
-    background-color: #ee3123;
-    text-align: center;
-}
-
-header img {
-    margin-bottom: 2em;
-    width: 100%;
-}
+/* Tyoe Styles - - - - - - - - - - - - - - - - - - - - - - */
 
 h1 {
     font-size: 2em;
     line-height: 1.12em;
-    padding: .75em 0 .5em 0;
+    padding-bottom: .75em;
 }
 
 h2 {
     font-size: 1.5em;
     line-height: 1.12em;
-    padding-top: .5em;
-    padding-bottom: .5em;
 }
 
 h3 {
     font-size: 1em;
-    /*line-height: 1.5em;*/
+}
+
+h3, p {
+    font-size: 1.25em;
+    line-height: 1.17em;
+    padding-top: .5em;
+    padding-bottom: .5em;
 }
 
 p {
     font-weight: normal;
-    padding: .4em 0;
-}
-
-h3, p {
-    font-size: 1em;
-    padding-top: .5em;
-    line-height: 1.15em;
 }
 
 h4 {
@@ -62,34 +51,66 @@ h4 {
     font-weight: normal;
 }
 
-#intro {
-    margin: 0 1em 3em 5em;
-    text-align: left;
+a {
+    color: inherit; 
+    text-decoration: inherit;
 }
+
+/* Classes - - - - - - - - - - - - - - - - - - - - - - */
+
+.container {
+    padding-top: 2.5em;
+    padding-right: 2em;
+    padding-bottom: 2.8em;
+    padding-left: 2em;
+}
+
+.whitebgnd {
+    background-color: white;
+    color: black;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    height: 0;
+    font-size: 0;
+    content:" ";
+    display: block;
+    clear: both;
+}
+
+/* Header - - - - - - - - - - - - - - - - - - - - - - */
+
+header img {
+    width: 100%;
+}
+
+#intro {
+    margin: 7% 5% 10% 20%;
+}
+
+/* Nav - - - - - - - - - - - - - - - - - - - - - - */
 
 nav {
     background-color: white;
-    padding: 2em;
+    /*padding: 2em;*/
 }
 
 nav aside {
     float: left;
-    width: 49%
+    width: 49%;
 }
 
-#crh-horiz {
+nav img {
     width: 100%;
-}
-
-#crh-full {
-    display: none;
+    padding: 2em 0 2em 2em;
 }
 
 nav article {
     float: right;
+    width: 47%;
     text-align: right;
-    padding-top: 0.5em;
-    width: 50%;
+    padding: 2em 2em 0 0;
 }
 
 nav a {
@@ -109,43 +130,31 @@ nav a:active {
     padding-bottom: .1em;
 }
 
-a {
-    color: inherit; 
-    text-decoration: inherit;
-}
+/* 1 / Who - - - - - - - - - - - - - - - - - - - - - - */
 
-.container {
-    padding: .5em 2em 1.5em 2em;
-}
-
-.whitebgnd {
-    background-color: white;
-    color: black;
-}
-
-.clearfix:after {
-    visibility: hidden;
-    height: 0;
-    font-size: 0;
-    content:" ";
-    display: block;
-    clear: both;
-}
-
-#who article {
+.who article {
     float: left;
-    width: 55%
+    width: 57%
 }
 
-#who aside {
+.who aside {
     float: right;
-    width: 40%
+    width: 38%
 }
 
-#who img {
-    margin-top: 3.5em;
+.who img {
     width: 100%;
 }
+
+.who h1 {
+    padding-bottom: .85em;
+}
+
+.who h2 {
+    padding-bottom: .85em;
+}
+
+/* 2 / What - - - - - - - - - - - - - - - - - - - - - - */
 
 .what aside {
     float: left;
@@ -157,40 +166,45 @@ a {
     width: 58%;
 }
 
-.what.container {
-    padding: 0px 2em;
-}
-
-.subsection.container {
-    padding-bottom: 1em;
-}
-
 .what h1 {
-    padding-top: .75em;
+    padding-top: .5em;
 }
 
 .what h2 {
     border-bottom: .15em solid;
     padding-bottom: .5em;
-    margin-bottom: .75em;
+    margin-bottom: .5em;
 }
 
-#where {
-    padding-right: 20%;
+.what p {
+    padding-right: 1em;
 }
+
+.what.container {
+    padding: 0px 2em;
+}
+
+.subsection.container {
+    padding-bottom: 1.5em;
+}
+
+/* 3 / Where - - - - - - - - - - - - - - - - - - - - - - */
+
+#where {
+    padding-right: 30%;
+}
+
+/* 5 / How - - - - - - - - - - - - - - - - - - - - - - */
 
 #how img {
     height: 45px;
-    padding: 1em 1.25em 0 0;
+    padding: 1.5em 1.25em 0 0;
 }
+
+/* Footer - - - - - - - - - - - - - - - - - - - - - - */
 
 footer.container {
     padding: 0px 0px 2em 0px;
-}
-
-footer aside {
-    float: left;
-    width: 40%;
 }
 
 footer article {
@@ -199,65 +213,142 @@ footer article {
     width: 80%;
 }
 
+footer aside {
+    float: left;
+    width: 80%;
+}
+
 footer img {
     width: 100%;
 }
 
-@media only screen and (max-width: 1160px) {
+/* Media Queries - - - - - - - - - - - - - - - - - - - - - - */
+/* MQ-1 / 1200px - - - - - - - - - - - */
+
+@media only screen and (max-width: 1200px) {
     body {
-        font-size: 16px;
+        font-size: 18px;
     }
     #how img {
         height: 38px;
     }
+}
 
-@media only screen and (max-width: 910px) {
+/* MQ-2 / 1080px - - - - - - - - - - - */
+
+@media only screen and (max-width: 1080px) {
+    body {
+        font-size: 16px;
+    }
+    #how img {
+        height: 32px;
+    }
+}
+
+/* MQ-3 / 980px - - - - - - - - - - - */
+
+@media only screen and (max-width: 980px) {
+    nav aside {
+        width: 42%
+    }
+    nav article {
+        width: 54%;
+    }
+        #how img {
+        height: 29px;
+    }
+}
+
+/* MQ-4 / 890px - - - - - - - - - - - */
+
+@media only screen and (max-width: 890px) {
+    body {
+        font-size: 15px;
+    }
+    #where {
+        padding-right: 20%;
+    }
+    #how img {
+        height: 27px;
+    }
+}
+
+/* MQ-5 / 835px - - - - - - - - - - - */
+
+@media only screen and (max-width: 835px) {
+    nav aside {
+        float: none;
+        width: 50%;
+    }
+    nav img {
+        width: 100%;
+    }
+    nav article {
+        float: none;
+        padding-top: 0;
+        padding-left: .5em;
+        padding-bottom: 1em;
+        width: 70%;
+        text-align: left;
+    }
+    nav a {
+        font-size: 1.5em;
+        margin-right: .25em;
+    }
+    .who article {
+        float: none;
+        width: 95%
+    }
+    .who aside {
+        float: none;
+        padding-top: 1.5em;
+        padding-bottom: .5em;
+    }
+    #where {
+        padding-right: 15%;
+    }
+}
+
+/* MQ-6 / 700px - - - - - - - - - - - */
+
+@media only screen and (max-width: 700px) {
+    nav aside {
+        width: 60%;
+    }
+    nav article {
+        width: 100%;
+    }
+    .who aside {
+        width: 50%;
+    }    
+    .what aside {
+        float: none;
+        width: 80%;
+    }
+    .what article {
+        float: none;
+        width: 100%;
+    }
+}
+
+/* MQ-7 / 600px - - - - - - - - - - - */
+
+@media only screen and (max-width: 600px) {
+    nav aside {
+        width: 70%;
+    }
+    .who aside {
+        width: 60%;
+    }
+}
+
+/* MQ-8 / 540px - - - - - - - - - - - */
+
+@media only screen and (max-width: 540px) {
     body {
         font-size: 14px;
     }
     #how img {
-        height: 27px;
+        height: 25px;
     }
-
-@media only screen and (max-width: 790px) {
-    #crh-horiz {
-        display: none;
-    }
-
-    #crh-full {
-        display: block;
-        width: 100%;
-    }
-
-    nav {
-        /*height: 326px;*/
-        background-color: white;
-        padding: 2em;
-    }
-
-    nav aside {
-        float: left;
-        width: 29%
-    }
-
-    nav article {
-        float: right;
-        text-align: right;
-        padding-top: 0.5em;
-        width: 70%;
-    }
-
-    nav a {
-        font-size: 1.25em;
-        color: #ee3123;
-        margin-left: 1em;
-    }
-
-    nav a:hover {
-        border-bottom: .2em solid;
-        padding-bottom: .1em;
-    }
-
-    #how img {
-        height: 27px;
 }
