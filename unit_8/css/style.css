@@ -78,12 +78,25 @@ a {
 
 /* Header - - - - - - - - - - - - - - - - - - - - - - */
 
+header {
+    text-align: center;
+}
+
 header img {
     width: 100%;
 }
 
 #intro {
-    margin: 7% 5% 10% 20%;
+    margin: 7% 5% 10% 25%;
+    text-align: left;
+}
+
+#not-cropped {
+    display: block;
+}
+
+#cropped {
+    display: none;
 }
 
 /* Nav - - - - - - - - - - - - - - - - - - - - - - */
@@ -209,6 +222,7 @@ footer {
     clear: right;
     padding-left: 3%;
     padding-bottom: 5%;
+    padding-top: 15%;
 }
 
 
@@ -309,5 +323,19 @@ footer {
 /* MQ-7 / 600px - - - - - - - - - - - */
 
 @media only screen and (max-width: 600px) {
-  
+    #wrapper {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    header img {
+        width: 90%;
+    }
+    #intro {
+        margin: 7% 8% 10% 26%;
+        text-align: left;
+    }
+    #how img {
+        height: 21px;
+    }
 }
