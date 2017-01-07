@@ -59,10 +59,7 @@ a {
 /* Classes - - - - - - - - - - - - - - - - - - - - - - */
 
 .container {
-    padding-top: 2.5em;
-    padding-right: 2em;
-    padding-bottom: 2.8em;
-    padding-left: 2em;
+    padding: 4%;
 }
 
 .whitebgnd {
@@ -93,24 +90,23 @@ header img {
 
 nav {
     background-color: white;
-    /*padding: 2em;*/
 }
 
 nav aside {
     float: left;
     width: 49%;
+    /*background-color: green;*/
 }
 
 nav img {
     width: 100%;
-    padding: 2em 0 2em 2em;
 }
 
 nav article {
     float: right;
     width: 47%;
     text-align: right;
-    padding: 2em 2em 0 0;
+    /*background-color: blue;*/
 }
 
 nav a {
@@ -148,6 +144,7 @@ nav a:active {
 
 .who h1 {
     padding-bottom: .85em;
+    padding-top: 2em;
 }
 
 .who h2 {
@@ -167,7 +164,7 @@ nav a:active {
 }
 
 .what h1 {
-    padding-top: .5em;
+    padding-top: 1.5em;
 }
 
 .what h2 {
@@ -203,24 +200,32 @@ nav a:active {
 
 /* Footer - - - - - - - - - - - - - - - - - - - - - - */
 
-footer.container {
-    padding: 0px 0px 2em 0px;
-}
-
-footer article {
+#logo-bottom {
+    width: 80%;
     float: right;
-    text-align: right;
-    width: 80%;
 }
 
-footer aside {
-    float: left;
-    width: 80%;
+footer {
+    clear: right;
+    padding-left: 3%;
+    padding-bottom: 5%;
 }
 
-footer img {
-    width: 100%;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* Media Queries - - - - - - - - - - - - - - - - - - - - - - */
 /* MQ-1 / 1200px - - - - - - - - - - - */
@@ -273,82 +278,16 @@ footer img {
     }
 }
 
-/* MQ-5 / 835px - - - - - - - - - - - */
+/* MQ-5 / 780px - - - - - - - - - - - */
 
-@media only screen and (max-width: 835px) {
-    nav aside {
-        float: none;
-        width: 50%;
-    }
-    nav img {
-        width: 100%;
-    }
-    nav article {
-        float: none;
-        padding-top: 0;
-        padding-left: .5em;
-        padding-bottom: 1em;
-        width: 70%;
-        text-align: left;
-    }
-    nav a {
-        font-size: 1.5em;
-        margin-right: .25em;
-    }
-    .who article {
-        float: none;
-        width: 95%
-    }
-    .who aside {
-        float: none;
-        padding-top: 1.5em;
-        padding-bottom: .5em;
+@media only screen and (max-width: 780px) {
+    body {
+        font-size: 14px;
     }
     #where {
         padding-right: 15%;
     }
-}
-
-/* MQ-6 / 700px - - - - - - - - - - - */
-
-@media only screen and (max-width: 700px) {
-    nav aside {
-        width: 60%;
-    }
-    nav article {
-        width: 100%;
-    }
-    .who aside {
-        width: 50%;
-    }    
-    .what aside {
-        float: none;
-        width: 80%;
-    }
-    .what article {
-        float: none;
-        width: 100%;
-    }
-}
-
-/* MQ-7 / 600px - - - - - - - - - - - */
-
-@media only screen and (max-width: 600px) {
-    nav aside {
-        width: 70%;
-    }
-    .who aside {
-        width: 60%;
-    }
-}
-
-/* MQ-8 / 540px - - - - - - - - - - - */
-
-@media only screen and (max-width: 540px) {
-    body {
-        font-size: 14px;
-    }
     #how img {
-        height: 25px;
+        height: 26px;
     }
 }
