@@ -431,6 +431,10 @@ footer {
         /*padding-bottom: 1.5em;*/
         width: 90%;
     }
+    #intro {
+        margin: 20% 5% 40% 15%;
+        /*text-align: left;*/
+    }
     .what article {
         /*float: none;*/
         /*clear: left;*/
