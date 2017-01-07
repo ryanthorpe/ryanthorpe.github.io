@@ -428,6 +428,14 @@ footer {
         /*padding-bottom: 1.5em;*/
         width: 80%;
     }
+    .what article {
+        /*float: none;*/
+        /*clear: left;*/
+        width: 100%;
+    }
+    #when {
+        padding-right: 5%;
+    }
 }
 
 /* MQ-9 / 418px - - - - - - - - - - - */
@@ -436,7 +444,11 @@ footer {
     body {
         font-size: 14px;
     }
-
+    nav a {
+        font-size: 1.1em;
+        margin-right: 1em;
+        /*margin-left: 0;*/
+    }
 }
 
 
