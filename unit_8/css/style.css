@@ -194,8 +194,8 @@ nav a:active {
     padding: 0px 2em;
 }
 
-.subsection.container {
-    /*padding-bottom: 2.5em;*/
+.subsection {
+    padding-bottom: 1em;
 }
 
 /* 3 / Where - - - - - - - - - - - - - - - - - - - - - - */
@@ -353,5 +353,77 @@ footer {
 /* MQ-8 / 540px - - - - - - - - - - - */
 
 @media only screen and (max-width: 540px) {
-    
+    body {
+        font-size: 15px;
+    }
+    .container {
+        padding: 6%;
+    }
+    #intro {
+        margin: 7% 5% 10% 25%;
+        /*text-align: left;*/
+    }
+    nav aside {
+        float: left;
+        padding-bottom: 1.5em;
+        width: 70%;
+    }
+
+    nav article {
+        float: none;
+        clear: left;
+        width: 100%;
+        text-align: left;
+    }
+    nav a {
+        font-size: 1.4em;
+        margin-right: 1.2em;
+        margin-left: 0;
+    }
+    .who article {
+        float: left;
+        width: 90%;
+    }
+
+    .who aside {
+        float: none;
+        clear: left;
+        width: 60%;
+        padding-top: 1em;
+        padding-bottom: 1em;
+    }
+    .what aside {
+        float: left;
+        width: 85%;
+    }
+
+    .what article {
+        float: none;
+        clear: left;
+        width: 95%;
+    }
+    #when {
+        padding-right: 20%;
+    }
 }
+
+/* MQ-9 / 520px - - - - - - - - - - - */
+
+@media only screen and (max-width: 520px) {
+    h1 {
+        font-size: 1.8em;
+    }
+}
+
+/* MQ-9 / 520px - - - - - - - - - - - */
+
+@media only screen and (max-width: 462px) {
+    nav a {
+        font-size: 1.3em;
+        margin-right: 1em;
+        /*margin-left: 0;*/
+    }
+}
+
+
+
