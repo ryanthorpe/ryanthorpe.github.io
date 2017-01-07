@@ -94,7 +94,7 @@ nav {
 
 nav aside {
     float: left;
-    width: 49%;
+    width: 52%;
     /*background-color: green;*/
 }
 
@@ -182,7 +182,7 @@ nav a:active {
 }
 
 .subsection.container {
-    padding-bottom: 1.5em;
+    /*padding-bottom: 2.5em;*/
 }
 
 /* 3 / Where - - - - - - - - - - - - - - - - - - - - - - */
@@ -254,10 +254,10 @@ footer {
 
 @media only screen and (max-width: 980px) {
     nav aside {
-        width: 42%
+        width: 46%
     }
     nav article {
-        width: 54%;
+        width: 53%;
     }
         #how img {
         height: 29px;
@@ -268,7 +268,7 @@ footer {
 
 @media only screen and (max-width: 890px) {
     body {
-        font-size: 15px;
+        font-size: 14px;
     }
     #where {
         padding-right: 20%;
@@ -282,7 +282,7 @@ footer {
 
 @media only screen and (max-width: 780px) {
     body {
-        font-size: 14px;
+        font-size: 12px;
     }
     #where {
         padding-right: 15%;
@@ -290,4 +290,24 @@ footer {
     #how img {
         height: 26px;
     }
+}
+
+/* MQ-6 / 650px - - - - - - - - - - - */
+
+@media only screen and (max-width: 650px) {
+    body {
+        font-size: 11px;
+    }
+    #where {
+        padding-right: 10%;
+    }
+    #how img {
+        height: 25px;
+    }
+}
+
+/* MQ-7 / 600px - - - - - - - - - - - */
+
+@media only screen and (max-width: 600px) {
+  
 }
