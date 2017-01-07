@@ -357,10 +357,10 @@ footer {
         font-size: 15px;
     }
     .container {
-        padding: 6%;
+        padding: 10% 6% 10% 6%;
     }
     #intro {
-        margin: 7% 5% 10% 25%;
+        margin: 7% 5% 10% 15%;
         /*text-align: left;*/
     }
     nav aside {
@@ -415,7 +415,7 @@ footer {
     }
 }
 
-/* MQ-9 / 520px - - - - - - - - - - - */
+/* MQ-9 / 462px - - - - - - - - - - - */
 
 @media only screen and (max-width: 462px) {
     nav a {
@@ -423,6 +423,20 @@ footer {
         margin-right: 1em;
         /*margin-left: 0;*/
     }
+    nav aside {
+        /*float: left;*/
+        /*padding-bottom: 1.5em;*/
+        width: 80%;
+    }
+}
+
+/* MQ-9 / 418px - - - - - - - - - - - */
+
+@media only screen and (max-width: 418px) {
+    body {
+        font-size: 14px;
+    }
+
 }
 
 
