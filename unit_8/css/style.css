@@ -426,7 +426,7 @@ footer {
     nav aside {
         /*float: left;*/
         /*padding-bottom: 1.5em;*/
-        width: 75%;
+        width: 90%;
     }
     .what article {
         /*float: none;*/
@@ -437,7 +437,7 @@ footer {
         padding-right: 15%;
     }
     #when {
-        padding-right: 5%;
+        padding-right: 10%;
     }
 }
 
@@ -448,11 +448,19 @@ footer {
         font-size: 13px;
     }
     nav a {
-        font-size: 1.1em;
+        font-size: 1.4em;
         margin-right: 1em;
         /*margin-left: 0;*/
     }
 }
 
+/* MQ-9 / 418px - - - - - - - - - - - */
 
+@media only screen and (max-width: 400px) {
+    nav a {
+        font-size: 1.2em;
+        margin-right: 1em;
+        /*margin-left: 0;*/
+    }
+}
 
