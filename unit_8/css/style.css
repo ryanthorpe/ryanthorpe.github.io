@@ -216,13 +216,14 @@ nav a:active {
 #logo-bottom {
     width: 80%;
     float: right;
+    padding-right: 7%;
 }
 
 footer {
     clear: right;
     padding-left: 3%;
     padding-bottom: 5%;
-    padding-top: 15%;
+    padding-top: 25%;
 }
 
 
@@ -313,7 +314,7 @@ footer {
         font-size: 11px;
     }
     #where {
-        padding-right: 10%;
+        /*padding-right: 10%;*/
     }
     #how img {
         height: 25px;
@@ -325,17 +326,32 @@ footer {
 @media only screen and (max-width: 600px) {
     #wrapper {
         width: 100%;
-        margin-left: auto;
-        margin-right: auto;
+        /*margin-left: auto;*/
+        /*margin-right: auto;*/
+    }
+    header {
+        text-align: center;
     }
     header img {
-        width: 90%;
+        width: 100%;
+    }
+    #not-cropped {
+        display: none;
+    }
+    #cropped {
+        display: block;
     }
     #intro {
         margin: 7% 8% 10% 26%;
-        text-align: left;
+        /*text-align: left;*/
     }
     #how img {
         height: 21px;
     }
+}
+
+/* MQ-8 / 540px - - - - - - - - - - - */
+
+@media only screen and (max-width: 540px) {
+    
 }
