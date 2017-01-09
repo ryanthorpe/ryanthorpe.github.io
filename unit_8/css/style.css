@@ -342,7 +342,7 @@ footer {
     nav aside {
         float: left;
         padding-bottom: 1.5em;
-        width: 70%;
+        width: 75%;
     }
 
     nav article {
@@ -433,17 +433,26 @@ footer {
 
 @media only screen and (max-width: 380px) {
     nav a {
+        font-size: 1.25em;
+    }
+}
+
+/* MQ-13 / 340px - - - - - - - - - - - */
+
+@media only screen and (max-width: 340px) {
+    nav a {
         font-size: 1.1em;
     }
 }
 
-/* MQ-13 / 320px - - - - - - - - - - - */
+/* MQ-14 / 303px - - - - - - - - - - - */
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 303px) {
     nav a {
-        /*font-size: .8em;*/
-        /*margin-right: .8em;*/
+        font-size: 1em;
     }
 }
+
+
 
 
