@@ -108,7 +108,6 @@ nav {
 nav aside {
     float: left;
     width: 52%;
-    /*background-color: green;*/
 }
 
 nav img {
@@ -119,7 +118,6 @@ nav article {
     float: right;
     width: 47%;
     text-align: right;
-    /*background-color: blue;*/
 }
 
 nav a {
@@ -227,21 +225,6 @@ footer {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* Media Queries - - - - - - - - - - - - - - - - - - - - - - */
 /* MQ-1 / 1200px - - - - - - - - - - - */
 
@@ -313,9 +296,6 @@ footer {
     body {
         font-size: 11px;
     }
-    #where {
-        /*padding-right: 10%;*/
-    }
     #how img {
         height: 25px;
     }
@@ -326,8 +306,6 @@ footer {
 @media only screen and (max-width: 600px) {
     #wrapper {
         width: 100%;
-        /*margin-left: auto;*/
-        /*margin-right: auto;*/
     }
     header {
         text-align: center;
@@ -343,7 +321,6 @@ footer {
     }
     #intro {
         margin: 10% 8% 13% 26%;
-        /*text-align: left;*/
     }
     #how img {
         height: 21px;
@@ -361,7 +338,6 @@ footer {
     }
     #intro {
         margin: 10% 5% 13% 15%;
-        /*text-align: left;*/
     }
     nav aside {
         float: left;
@@ -418,26 +394,20 @@ footer {
     }
 }
 
-/* MQ-9 / 462px - - - - - - - - - - - */
+/* MQ-10 / 462px - - - - - - - - - - - */
 
 @media only screen and (max-width: 462px) {
     nav a {
         font-size: 1.3em;
         margin-right: 1em;
-        /*margin-left: 0;*/
     }
     nav aside {
-        /*float: left;*/
-        /*padding-bottom: 1.5em;*/
         width: 90%;
     }
     #intro {
         margin: 15% 5% 35% 15%;
-        /*text-align: left;*/
     }
     .what article {
-        /*float: none;*/
-        /*clear: left;*/
         width: 100%;
     }
     #where {
@@ -448,7 +418,7 @@ footer {
     }
 }
 
-/* MQ-9 / 418px - - - - - - - - - - - */
+/* MQ-11 / 418px - - - - - - - - - - - */
 
 @media only screen and (max-width: 418px) {
     body {
@@ -456,28 +426,23 @@ footer {
     }
     nav a {
         font-size: 1.4em;
-        /*margin-right: 1em;*/
-        /*margin-left: 0;*/
     }
 }
 
-/* MQ-9 / 418px - - - - - - - - - - - */
+/* MQ-12 / 380px - - - - - - - - - - - */
 
 @media only screen and (max-width: 380px) {
     nav a {
         font-size: 1.1em;
-        /*margin-right: 1em;*/
-        /*margin-left: 0;*/
     }
 }
 
-/* MQ-9 / 418px - - - - - - - - - - - */
+/* MQ-13 / 320px - - - - - - - - - - - */
 
 @media only screen and (max-width: 320px) {
     nav a {
-        font-size: .8em;
-        margin-right: .8em;
-        /*margin-left: 0;*/
+        /*font-size: .8em;*/
+        /*margin-right: .8em;*/
     }
 }
 
